@@ -1,0 +1,46 @@
+{
+  "name": "searchparamify",
+  "version": "0.1.0",
+  "description": "Create URLSearchParams from a JavaScript object.",
+  "main": "dist/searchparamify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "lint": "eslint **/*.js",
+    "lint:fix": "eslint --fix **/*.js"
+  },
+  "keywords": [
+    "url",
+    "search",
+    "urlsearchparams",
+    "urlencoded",
+    "x-www-form-urlencoded",
+    "form",
+    "post"
+  ],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/searchparamify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travishorn/searchparamify/issues"
+  },
+  "homepage": "https://github.com/travishorn/searchparamify#readme",
+  "files": [
+    "dist/"
+  ]
+}

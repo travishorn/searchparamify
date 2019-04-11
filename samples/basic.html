@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Basic Sample | searchparamify</title>
+  </head>
+  <body>
+    <h1>Basic Sample | searchparamify</h1>
+
+    <script src="../dist/searchparamify.js"></script>
+    <script>
+      const params = searchparamify({
+        name: "Jimmy",
+        favoriteAnimal: "cat"
+      });
+
+      console.log(params.toString());
+    </script>
+  </body>
+</html>
